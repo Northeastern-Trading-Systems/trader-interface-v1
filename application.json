@@ -1,0 +1,31 @@
+{
+  "pages": [
+    {
+      "id": "Data Explorer",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": true
+    },
+    {
+      "id": "Strategy Explorer",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C7F3E3",
+  "icon": "moon",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

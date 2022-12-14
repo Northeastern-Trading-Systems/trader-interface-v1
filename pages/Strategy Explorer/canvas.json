@@ -1,0 +1,2854 @@
+{
+  "unpublishedPage": {
+    "name": "Strategy Explorer",
+    "slug": "strategy-explorer",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1310,
+          "containerStyle": "none",
+          "snapRows": 67,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 67,
+          "minHeight": 680,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "nts",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "northeastern trading systems",
+              "key": "ot6kjuo6es",
+              "isDeprecated": false,
+              "rightColumn": 22,
+              "disableLink": false,
+              "textAlign": "LEFT",
+              "widgetId": "kgidx69r20",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#b91c1c",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1.25rem"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "Home",
+              "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW')}}",
+              "buttonColor": "#b91c1c",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 52,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "",
+              "isDisabled": false,
+              "key": "zyhug0ozt9",
+              "isDeprecated": false,
+              "rightColumn": 55,
+              "isDefaultClickDisabled": true,
+              "iconName": "home",
+              "widgetId": "udfokw94qi",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "SECONDARY",
+              "iconAlign": "left",
+              "placement": "CENTER"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "Sign_Out",
+              "onClick": "{{postWindowMessage('\"Signing out.\"', 'window', '*')}}",
+              "buttonColor": "#b91c1c",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 55,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Sign Out",
+              "isDisabled": false,
+              "key": "zyhug0ozt9",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "isDefaultClickDisabled": true,
+              "widgetId": "pd73afw8f2",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "GoToAWSCopy",
+              "onClick": "{{navigateTo('quantconnect.com/terminal', {},'NEW_WINDOW')}}",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 20,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 49,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "QuantConnect",
+              "isDisabled": false,
+              "key": "dpc4s29p9n",
+              "isDeprecated": false,
+              "rightColumn": 57,
+              "isDefaultClickDisabled": true,
+              "widgetId": "vnzoc3q8mp",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "YTDPNLCopyCopy2",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 96,
+              "bottomRow": 107,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopyCopyCopyCopyCopyCopy2",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaueCopyCopy1CopyCopy2",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 9,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 9,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{GetStrategyStatistics.data.sharpe}}",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 54,
+                      "disableLink": false,
+                      "textAlign": "CENTER",
+                      "widgetId": "eq8t6rtdrx",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#18181b",
+                      "version": 1,
+                      "parentId": "15wxj8edov",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "YTD_PNLCopyCopy2",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Sharpe",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "id94p7lc9h",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "15wxj8edov",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "15wxj8edov",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "1wswyoyxl2",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 64,
+              "widgetId": "1wswyoyxl2",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "YTDPNLCopyCopy1",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 84,
+              "bottomRow": 95,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopyCopyCopyCopyCopyCopy1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaueCopyCopy1CopyCopy1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 9,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 9,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{GetStrategyStatistics.data.avg_daily_trades}}",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 54,
+                      "disableLink": false,
+                      "textAlign": "CENTER",
+                      "widgetId": "sz7tivwsso",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#18181b",
+                      "version": 1,
+                      "parentId": "yds63yglu6",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "YTD_PNLCopyCopy1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Average Daily Trades",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "2p6efiyz7b",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "yds63yglu6",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "yds63yglu6",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "hf59li8o7e",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 64,
+              "widgetId": "hf59li8o7e",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "YTDPNLCopyCopy",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 72,
+              "bottomRow": 83,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopyCopyCopyCopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaueCopyCopy1CopyCopy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 9,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 9,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{GetStrategyStatistics.data.avg_daily_return}}%",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 54,
+                      "disableLink": false,
+                      "textAlign": "CENTER",
+                      "widgetId": "6wa4qjgqoa",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#18181b",
+                      "version": 1,
+                      "parentId": "abh0mpzys0",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "YTD_PNLCopyCopy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Average Daily Return",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "2zed3lkokh",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "abh0mpzys0",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "abh0mpzys0",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "mdojidny0r",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 64,
+              "widgetId": "mdojidny0r",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "YTDPNLCopy",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 60,
+              "bottomRow": 71,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopyCopyCopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaueCopyCopy1Copy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 9,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 9,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{GetStrategyStatistics.data.avg_annual_return}}%",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 54,
+                      "disableLink": false,
+                      "textAlign": "CENTER",
+                      "widgetId": "o51klxti3s",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#18181b",
+                      "version": 1,
+                      "parentId": "44x3jrbj6v",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "YTD_PNLCopy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Average Annual Return",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "rxdfnixzql",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "44x3jrbj6v",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "44x3jrbj6v",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "5an65dtz7j",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 64,
+              "widgetId": "5an65dtz7j",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "YTDPNL",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 48,
+              "bottomRow": 59,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopyCopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaueCopyCopy1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 9,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 9,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "${{GetStrategyStatistics.data.ytd_pnl}}",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 54,
+                      "disableLink": false,
+                      "textAlign": "CENTER",
+                      "widgetId": "9oimvxjzfj",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#18181b",
+                      "version": 1,
+                      "parentId": "c1pq9dyn3z",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "YTD_PNL",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "YTD P&L",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "5dqtkeu67o",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "c1pq9dyn3z",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "c1pq9dyn3z",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "hy86s036tz",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 64,
+              "widgetId": "hy86s036tz",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "OpenTradesCopyCopy",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 36,
+              "bottomRow": 47,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaueCopyCopy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 10,
+                      "bottomRow": 15,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 9,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{GetStra}}",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 54,
+                      "disableLink": false,
+                      "textAlign": "LEFT",
+                      "widgetId": "eacj7j8dpj",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#18181b",
+                      "version": 1,
+                      "parentId": "jl01odnuac",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "CumulativePNL",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Cumulative P&L",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "ioyudw5qd0",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "jl01odnuac",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaueCopy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 9,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 9,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "${{GetStrategyStatistics.data.cumulative_pnl}}",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 54,
+                      "disableLink": false,
+                      "textAlign": "CENTER",
+                      "widgetId": "9d6icpw9l2",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231f20",
+                      "version": 1,
+                      "parentId": "jl01odnuac",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "jl01odnuac",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "w2cn70sqge",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 64,
+              "widgetId": "w2cn70sqge",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "FlattenStrategy",
+              "onClick": "{{showAlert('Authentication Required!')}}",
+              "buttonColor": "#dc2626",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 113,
+              "bottomRow": 117,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 51,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Flatten",
+              "isDisabled": false,
+              "key": "dpc4s29p9n",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "isDefaultClickDisabled": true,
+              "widgetId": "frk2pk2yr9",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "widgetName": "ChartHeader",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 30,
+              "bottomRow": 34,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Capital Curve",
+              "key": "ot6kjuo6es",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "textAlign": "LEFT",
+              "widgetId": "m539ghlqn3",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1.25rem"
+            },
+            {
+              "widgetName": "HistoricalTradesHeader",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 91,
+              "bottomRow": 95,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Historical Trades",
+              "key": "ot6kjuo6es",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "textAlign": "LEFT",
+              "widgetId": "mknadyll5p",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1.25rem"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 95,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "childStylesheet.button.buttonColor"
+                },
+                {
+                  "key": "childStylesheet.button.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.menuButton.menuColor"
+                },
+                {
+                  "key": "childStylesheet.menuButton.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.iconButton.buttonColor"
+                },
+                {
+                  "key": "childStylesheet.iconButton.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.editActions.saveButtonColor"
+                },
+                {
+                  "key": "childStylesheet.editActions.saveBorderRadius"
+                },
+                {
+                  "key": "childStylesheet.editActions.discardButtonColor"
+                },
+                {
+                  "key": "childStylesheet.editActions.discardBorderRadius"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.close_time.computedValue"
+                },
+                {
+                  "key": "primaryColumns.contract.computedValue"
+                },
+                {
+                  "key": "primaryColumns.fills.computedValue"
+                },
+                {
+                  "key": "primaryColumns.no_legs.computedValue"
+                },
+                {
+                  "key": "primaryColumns.open_time.computedValue"
+                },
+                {
+                  "key": "primaryColumns.pnl.computedValue"
+                },
+                {
+                  "key": "primaryColumns.trade_id.computedValue"
+                }
+              ],
+              "leftColumn": 1,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "HistoricalTradesTable",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "close_time",
+                "contract",
+                "fills",
+                "no_legs",
+                "open_time",
+                "pnl",
+                "trade_id"
+              ],
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "bottomRow": 123,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "close_time": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "close_time",
+                  "id": "close_time",
+                  "alias": "close_time",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "close_time",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{HistoricalTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"close_time\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "contract": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "contract",
+                  "id": "contract",
+                  "alias": "contract",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "contract",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{HistoricalTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"contract\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "fills": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "fills",
+                  "id": "fills",
+                  "alias": "fills",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "fills",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{HistoricalTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"fills\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "no_legs": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "no_legs",
+                  "id": "no_legs",
+                  "alias": "no_legs",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "no_legs",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{HistoricalTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"no_legs\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "open_time": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "open_time",
+                  "id": "open_time",
+                  "alias": "open_time",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "open_time",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{HistoricalTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"open_time\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "pnl": {
+                  "allowCellWrapping": false,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "pnl",
+                  "id": "pnl",
+                  "alias": "pnl",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "pnl",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{HistoricalTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pnl\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "trade_id": {
+                  "allowCellWrapping": false,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "trade_id",
+                  "id": "trade_id",
+                  "alias": "trade_id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "trade_id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{HistoricalTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"trade_id\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                }
+              },
+              "key": "mdygmd6ese",
+              "isDeprecated": false,
+              "rightColumn": 37,
+              "textSize": "0.875rem",
+              "widgetId": "fgv2lw6q9u",
+              "tableData": "{{GetHistoricalTrades.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "OpenTrades",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 14,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 13,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 400,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "CapitalUsageTitleCopy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Open Trades",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "fm2007q3ov",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "pbwiz4ece9",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenTradesAmt",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{GetStrategyStatus.data.active_trades}}",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 45,
+                      "disableLink": false,
+                      "textAlign": "LEFT",
+                      "widgetId": "67xi0xqkie",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#18181b",
+                      "version": 1,
+                      "parentId": "pbwiz4ece9",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "pbwiz4ece9",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "x89d6ij1ii",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 25,
+              "widgetId": "x89d6ij1ii",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "CapitalUsage",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 14,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "CapitalUsageTitle",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Capital Usage",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "mvzzituoko",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "xkl2krco6j",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "CapitalOut",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "Ubuntu",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "${{GetStrategyStatus.data.capital_usage}}",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 62,
+                      "disableLink": false,
+                      "textAlign": "LEFT",
+                      "widgetId": "xmep5755sk",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#16a34a",
+                      "version": 1,
+                      "parentId": "xkl2krco6j",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "xkl2krco6j",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "jncd453l0k",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 13,
+              "widgetId": "jncd453l0k",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "widgetName": "StrategyName",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "{{appsmith.URL.queryParams.key}}",
+              "key": "5pc22oyocd",
+              "isDeprecated": false,
+              "rightColumn": 37,
+              "textAlign": "LEFT",
+              "widgetId": "8j22jkgeza",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1.875rem"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "OpenTradesCopy",
+              "borderColor": "#18181b",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 14,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 25,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9CopyCopyCopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 400,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "CapitalUsageTitleCopyCopy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Daily P&L",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 46,
+                      "textAlign": "LEFT",
+                      "widgetId": "3729s6mr8g",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#27272a",
+                      "version": 1,
+                      "parentId": "pcp0tb9u7b",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "OpenPNLVaue",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "$0",
+                      "key": "deco66gubs",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 45,
+                      "disableLink": false,
+                      "textAlign": "LEFT",
+                      "widgetId": "hhkmnorvsr",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#16a34a",
+                      "version": 1,
+                      "parentId": "pcp0tb9u7b",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    }
+                  ],
+                  "key": "he8asa5zlk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "pcp0tb9u7b",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "7wdn4ed93s",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "1",
+              "key": "p5ueindstb",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#fafafa",
+              "rightColumn": 37,
+              "widgetId": "7wdn4ed93s",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "5px"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 72,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "primaryColumns.step.computedValue"
+                },
+                {
+                  "key": "primaryColumns.task.computedValue"
+                },
+                {
+                  "key": "primaryColumns.status.computedValue"
+                },
+                {
+                  "key": "primaryColumns.action.computedValue"
+                },
+                {
+                  "key": "primaryColumns.action.buttonColor"
+                },
+                {
+                  "key": "primaryColumns.action.borderRadius"
+                },
+                {
+                  "key": "primaryColumns.action.boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "childStylesheet.button.buttonColor"
+                },
+                {
+                  "key": "childStylesheet.button.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.menuButton.menuColor"
+                },
+                {
+                  "key": "childStylesheet.menuButton.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.iconButton.buttonColor"
+                },
+                {
+                  "key": "childStylesheet.iconButton.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.editActions.saveButtonColor"
+                },
+                {
+                  "key": "childStylesheet.editActions.saveBorderRadius"
+                },
+                {
+                  "key": "childStylesheet.editActions.discardButtonColor"
+                },
+                {
+                  "key": "childStylesheet.editActions.discardBorderRadius"
+                },
+                {
+                  "key": "tableData"
+                }
+              ],
+              "leftColumn": 1,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "OpenTradesTable",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "step",
+                "task",
+                "status",
+                "action",
+                "customColumn1"
+              ],
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "bottomRow": 91,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "step": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "step",
+                  "originalId": "step",
+                  "alias": "step",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isCellVisible": true,
+                  "isCellEditable": false,
+                  "isDerived": false,
+                  "label": "open_id",
+                  "computedValue": "{{OpenTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
+                  "validation": {},
+                  "labelColor": "#FFFFFF"
+                },
+                "task": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "task",
+                  "originalId": "task",
+                  "alias": "task",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isCellVisible": true,
+                  "isCellEditable": false,
+                  "isDerived": false,
+                  "label": "contract",
+                  "computedValue": "{{OpenTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
+                  "validation": {},
+                  "labelColor": "#FFFFFF"
+                },
+                "status": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "status",
+                  "originalId": "status",
+                  "alias": "status",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isCellVisible": true,
+                  "isCellEditable": false,
+                  "isDerived": false,
+                  "label": "fills",
+                  "computedValue": "{{OpenTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
+                  "validation": {},
+                  "labelColor": "#FFFFFF"
+                },
+                "action": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "action",
+                  "originalId": "action",
+                  "alias": "action",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "button",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isCellVisible": true,
+                  "isCellEditable": false,
+                  "isDisabled": false,
+                  "isDerived": false,
+                  "label": "no_legs",
+                  "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+                  "computedValue": "{{OpenTradesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
+                  "validation": {},
+                  "labelColor": "#FFFFFF",
+                  "buttonColor": "{{OpenTradesTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+                  "borderRadius": "{{OpenTradesTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "boxShadow": "{{OpenTradesTable.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
+                },
+                "customColumn1": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "customColumn1",
+                  "id": "customColumn1",
+                  "alias": "customColumn1",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "open_time",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF"
+                }
+              },
+              "key": "mdygmd6ese",
+              "isDeprecated": false,
+              "rightColumn": 37,
+              "textSize": "0.875rem",
+              "widgetId": "9fazzv25z3",
+              "tableData": "{{GetOpenTrades.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
+            },
+            {
+              "widgetName": "OpenTradesHeader",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 68,
+              "bottomRow": 72,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Open Trades",
+              "key": "ot6kjuo6es",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "textAlign": "LEFT",
+              "widgetId": "82p4e4t791",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1.25rem"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "CapitalCurveChart",
+              "allowScroll": true,
+              "dynamicPropertyPathList": [],
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 36,
+              "bottomRow": 68,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "1ygiahwyoh": {
+                  "seriesName": "",
+                  "data": "{{GetStrategyPNL.data.map( (obj) =>{ return  {'x': obj.Date, 'y': obj.PNL } })}}"
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "chartData.1ygiahwyoh.data"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "leftColumn": 1,
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716E6E",
+                    "xAxisNameFontColor": "#716E6E",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716E6E",
+                    "yAxisNameFontColor": "#716E6E"
+                  }
+                }
+              },
+              "key": "e4fm3hajgr",
+              "isDeprecated": false,
+              "rightColumn": 37,
+              "widgetId": "vsve24rys9",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "Daily P&L",
+              "chartName": "",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "xAxisName": "",
+              "chartType": "COLUMN_CHART"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Divider1",
+              "thickness": 2,
+              "displayName": "Divider",
+              "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
+              "searchTags": [
+                "line"
+              ],
+              "topRow": 26,
+              "bottomRow": 30,
+              "parentRowSpace": 10,
+              "type": "DIVIDER_WIDGET",
+              "capType": "nc",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "key": "xcd6utnbag",
+              "dividerColor": "#858282",
+              "orientation": "horizontal",
+              "strokeStyle": "solid",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "um95wtzjfy",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "capSide": 0,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "Kill_Strategy",
+              "onClick": "{{showAlert('Authentication Required!')}}",
+              "buttonColor": "#dc2626",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 113,
+              "bottomRow": 117,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Kill Strategy",
+              "isDisabled": false,
+              "key": "dpc4s29p9n",
+              "isDeprecated": false,
+              "rightColumn": 50,
+              "isDefaultClickDisabled": true,
+              "widgetId": "4gfbsjv3tu",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "widgetName": "RunningOn",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 14,
+              "bottomRow": 19,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "TRUNCATE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 38,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "running on: \"aws.nts.tradingdeployment.{{StrategyName.text}}.ec2.amazonaws\"",
+              "key": "m7frpz5klp",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "textAlign": "LEFT",
+              "widgetId": "cq3soa59z6",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#716e6e",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "0.875rem"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "GoToAWS",
+              "onClick": "{{navigateTo('aws.amazon.com', {},'NEW_WINDOW')}}",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 20,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 39,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Open in AWS",
+              "isDisabled": false,
+              "key": "dpc4s29p9n",
+              "isDeprecated": false,
+              "rightColumn": 48,
+              "isDefaultClickDisabled": true,
+              "widgetId": "nuc2jw461v",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+              "widgetName": "Github",
+              "onClick": "{{navigateTo('https://github.com/Northeastern-Trading-Systems', {},'NEW_WINDOW')}}",
+              "buttonColor": "#3f3f4",
+              "displayName": "Icon Button",
+              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 20,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "type": "ICON_BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 58,
+              "dynamicBindingPathList": [],
+              "isDisabled": false,
+              "key": "zj38hfiss8",
+              "isDeprecated": false,
+              "rightColumn": 62,
+              "iconName": "git-branch",
+              "widgetId": "qmnbgy4v7t",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "1.5rem",
+              "buttonVariant": "PRIMARY"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Strategy Explorer_GetHistoricalTrades",
+              "name": "GetHistoricalTrades",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.key"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Strategy Explorer_GetOpenTrades",
+              "name": "GetOpenTrades",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.key"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Strategy Explorer_GetStrategyPNL",
+              "name": "GetStrategyPNL",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.key"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Strategy Explorer_GetStrategyStatistics",
+              "name": "GetStrategyStatistics",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.key"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Strategy Explorer_GetStrategyStatus",
+              "name": "GetStrategyStatus",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.key"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Strategy Explorer",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "63935cba5bc9880dbcb213be_6397edd65bc9880dbcb2407e"
+}
