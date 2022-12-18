@@ -2847,7 +2847,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "63935cba5bc9880dbcb213be_6397edd65bc9880dbcb2407e"
